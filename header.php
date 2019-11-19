@@ -75,14 +75,14 @@
             <!-- </a> -->
           </div>
           <div class="mr-auto">
-            <nav class="site-navigation position-relative text-right" role="navigation">
-              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+            <nav class="site-menu main-menu " role="navigation">
+              <!-- <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block"> -->
               	<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'wpeducation' ); ?></button>
 			<?php
 			wp_nav_menu( array(
 				'theme_location' => 'menu-1',
 				'menu_id'        => 'primary-menu',
-				'class'			 => 'nav-link text-left',
+				'container_class' => ' nav-link ',
 			) );
 			?>
                 <!-- <li class="active">
@@ -104,7 +104,7 @@
                 <li>
                     <a href="contact.html" class="nav-link text-left">Contact</a>
                   </li> -->
-              	</ul>                                                                                      
+              	<!-- </ul>  -->                                                                                     
             </nav>
 
           </div>

@@ -18,7 +18,10 @@ get_header();
 
     
     <div class="hero-slide owl-carousel site-blocks-cover">
-      <div class="intro-section" style="background-image: url(<?php get_stylesheet_directory_uri();?>'./images/hero_1.jpg');">
+      <div class="intro-section" style="background-image: url('<?php bloginfo('template_directory');?>/images/hero_1.jpg');">
+
+
+
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-12 mx-auto text-center" data-aos="fade-up">
@@ -28,7 +31,7 @@ get_header();
         </div>
       </div>
 
-      <div class="intro-section" style="background-image: url('images/hero_1.jpg');">
+      <div class="intro-section" style="background-image: url('<?php echo get_template_directory_uri();?>/images/hero_1.jpg');">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-12 mx-auto text-center" data-aos="fade-up">
@@ -113,7 +116,7 @@ get_header();
               <div class="owl-slide-3 owl-carousel">
                   <div class="course-1-item">
                     <figure class="thumnail">
-                      <a href="course-single.html"><img src="<?php get_stylesheet_directory_uri();?>./images/course_1.jpg" alt="Image" class="img-fluid"></a>
+                      <a href="course-single.html"><img src="<?php echo get_template_directory_uri(); ?>/images/course_1.jpg" alt="Image" class="img-fluid"></a>
                       <div class="price">$99.00</div>
                       <div class="category"><h3>Mobile Application</h3></div>  
                     </figure>
@@ -133,7 +136,7 @@ get_header();
       
                   <div class="course-1-item">
                     <figure class="thumnail">
-                      <a href="course-single.html"><img src="images/course_2.jpg" alt="Image" class="img-fluid"></a>
+                      <a href="course-single.html"><img src="<?php echo get_template_directory_uri(); ?>/images/course_2.jpg" alt="Image" class="img-fluid"></a>
                       <div class="price">$99.00</div>
                       <div class="category"><h3>Web Design</h3></div>  
                     </figure>
@@ -153,7 +156,7 @@ get_header();
       
                   <div class="course-1-item">
                     <figure class="thumnail">
-                      <a href="course-single.html"><img src="images/course_3.jpg" alt="Image" class="img-fluid"></a>
+                      <a href="course-single.html"><img src="<?php echo get_template_directory_uri(); ?>/images/course_3.jpg" alt="Image" class="img-fluid"></a>
                       <div class="price">$99.00</div>
                       <div class="category"><h3>Arithmetic</h3></div>  
                     </figure>
@@ -173,7 +176,7 @@ get_header();
 
                   <div class="course-1-item">
                     <figure class="thumnail">
-                        <a href="course-single.html"><img src="images/course_4.jpg" alt="Image" class="img-fluid"></a>
+                        <a href="course-single.html"><img src="<?php echo get_template_directory_uri(); ?>/images/course_4.jpg" alt="Image" class="img-fluid"></a>
                       <div class="price">$99.00</div>
                       <div class="category"><h3>Mobile Application</h3></div>  
                     </figure>
@@ -193,7 +196,7 @@ get_header();
       
                   <div class="course-1-item">
                     <figure class="thumnail">
-                        <a href="course-single.html"><img src="images/course_5.jpg" alt="Image" class="img-fluid"></a>
+                        <a href="course-single.html"><img src="<?php echo get_template_directory_uri(); ?>/images/course_5.jpg" alt="Image" class="img-fluid"></a>
                       <div class="price">$99.00</div>
                       <div class="category"><h3>Web Design</h3></div>  
                     </figure>
@@ -213,7 +216,7 @@ get_header();
       
                   <div class="course-1-item">
                     <figure class="thumnail">
-                        <a href="course-single.html"><img src="images/course_6.jpg" alt="Image" class="img-fluid"></a>
+                        <a href="course-single.html"><img src="<?php echo get_template_directory_uri(); ?>/images/course_6.jpg" alt="Image" class="img-fluid"></a>
                       <div class="price">$99.00</div>
                       <div class="category"><h3>Mobile Application</h3></div>  
                     </figure>
@@ -244,7 +247,7 @@ get_header();
     
 
 
-    <div class="section-bg style-1" style="background-image: url('images/about_1.jpg');">
+    <div class="section-bg style-1" style="background-image: url('<?php bloginfo("template_directory");?>/images/about_1.jpg');">
       <div class="container">
         <div class="row">
           <div class="col-lg-4">
@@ -277,7 +280,7 @@ get_header();
 
           <div class="ftco-testimonial-1">
             <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-              <img src="images/person_1.jpg" alt="Image" class="img-fluid mr-3">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/person_1.jpg" alt="Image" class="img-fluid mr-3">
               <div>
                 <h3>Allison Holmes</h3>
                 <span>Designer</span>
@@ -290,7 +293,7 @@ get_header();
 
           <div class="ftco-testimonial-1">
             <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-              <img src="images/person_2.jpg" alt="Image" class="img-fluid mr-3">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/person_2.jpg" alt="Image" class="img-fluid mr-3">
               <div>
                 <h3>Allison Holmes</h3>
                 <span>Designer</span>
@@ -303,7 +306,7 @@ get_header();
 
           <div class="ftco-testimonial-1">
             <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-              <img src="images/person_4.jpg" alt="Image" class="img-fluid mr-3">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/person_4.jpg" alt="Image" class="img-fluid mr-3">
               <div>
                 <h3>Allison Holmes</h3>
                 <span>Designer</span>
@@ -316,7 +319,7 @@ get_header();
 
           <div class="ftco-testimonial-1">
             <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-              <img src="images/person_3.jpg" alt="Image" class="img-fluid mr-3">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/person_3.jpg" alt="Image" class="img-fluid mr-3">
               <div>
                 <h3>Allison Holmes</h3>
                 <span>Designer</span>
@@ -329,7 +332,7 @@ get_header();
 
           <div class="ftco-testimonial-1">
             <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-              <img src="images/person_2.jpg" alt="Image" class="img-fluid mr-3">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/person_2.jpg" alt="Image" class="img-fluid mr-3">
               <div>
                 <h3>Allison Holmes</h3>
                 <span>Designer</span>
@@ -342,7 +345,7 @@ get_header();
 
           <div class="ftco-testimonial-1">
             <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-              <img src="images/person_4.jpg" alt="Image" class="img-fluid mr-3">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/person_4.jpg" alt="Image" class="img-fluid mr-3">
               <div>
                 <h3>Allison Holmes</h3>
                 <span>Designer</span>
@@ -359,7 +362,7 @@ get_header();
     </div>
     
 
-    <div class="section-bg style-1" style="background-image: url('images/hero_1.jpg');">
+    <div class="section-bg style-1" style="background-image: url(<?php bloginfo('template_directory');?>'images/hero_1.jpg');">
       <div class="container">
         <div class="row">
           <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
@@ -395,7 +398,7 @@ get_header();
             <div class="row">
               <div class="col-lg-6">
                 <div class="post-entry-big">
-                  <a href="news-single.html" class="img-link"><img src="images/blog_large_1.jpg" alt="Image" class="img-fluid"></a>
+                  <a href="news-single.html" class="img-link"><img src="<?php echo get_template_directory_uri(); ?>/images/blog_large_1.jpg" alt="Image" class="img-fluid"></a>
                   <div class="post-content">
                     <div class="post-meta"> 
                       <a href="#">June 6, 2019</a>
@@ -408,7 +411,7 @@ get_header();
               </div>
               <div class="col-lg-6">
                 <div class="post-entry-big horizontal d-flex mb-4">
-                  <a href="news-single.html" class="img-link mr-4"><img src="images/blog_1.jpg" alt="Image" class="img-fluid"></a>
+                  <a href="news-single.html" class="img-link mr-4"><img src="<?php bloginfo('template_directory');?>/images/blog_1.jpg" alt="Image" class="img-fluid"></a>
                   <div class="post-content">
                     <div class="post-meta">
                       <a href="#">June 6, 2019</a>
@@ -420,7 +423,7 @@ get_header();
                 </div>
 
                 <div class="post-entry-big horizontal d-flex mb-4">
-                  <a href="news-single.html" class="img-link mr-4"><img src="images/blog_2.jpg" alt="Image" class="img-fluid"></a>
+                  <a href="news-single.html" class="img-link mr-4"><img src="<?php bloginfo('template_directory');?>/images/blog_2.jpg" alt="Image" class="img-fluid"></a>
                   <div class="post-content">
                     <div class="post-meta">
                       <a href="#">June 6, 2019</a>
@@ -432,7 +435,7 @@ get_header();
                 </div>
 
                 <div class="post-entry-big horizontal d-flex mb-4">
-                  <a href="news-single.html" class="img-link mr-4"><img src="images/blog_1.jpg" alt="Image" class="img-fluid"></a>
+                  <a href="news-single.html" class="img-link mr-4"><img src="<?php bloginfo('template_directory');?>/images/blog_1.jpg" alt="Image" class="img-fluid"></a>
                   <div class="post-content">
                     <div class="post-meta">
                       <a href="#">June 6, 2019</a>
@@ -454,20 +457,20 @@ get_header();
               <span class="play">
                 <span class="icon-play"></span>
               </span>
-              <img src="images/course_5.jpg" alt="Image" class="img-fluid">
+              <img src="<?php bloginfo('template_directory');?>/images/course_5.jpg" alt="Image" class="img-fluid">
             </a>
             <a href="https://vimeo.com/45830194" class="video-1 mb-4" data-fancybox="" data-ratio="2">
                 <span class="play">
                   <span class="icon-play"></span>
                 </span>
-                <img src="images/course_5.jpg" alt="Image" class="img-fluid">
+                <img src="<?php bloginfo('template_directory');?>/images/course_5.jpg" alt="Image" class="img-fluid">
               </a>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="site-section ftco-subscribe-1" style="background-image: url('images/bg_1.jpg')">
+    <div class="site-section ftco-subscribe-1" style="background-image: url('<?php bloginfo('template_directory');?>/images/bg_1.jpg')">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-7">
