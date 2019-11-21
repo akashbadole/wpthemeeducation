@@ -165,48 +165,7 @@ function wpeducation_scripts() {
 	wp_enqueue_script( 'wpeducation-navigation13', get_template_directory_uri() . '/js/jquery.sticky.js', array(), '20151215', true );
 	wp_enqueue_script( 'wpeducation-navigation14', get_template_directory_uri() . '/js/jquery.mb.YTPlayer.min.js', array(), '20151215', true );
 	wp_enqueue_script( 'wpeducation-navigation15', get_template_directory_uri() . '/js/main.js', array(), '20151215', true );
-
-
-
-	 // <script src="js/jquery-3.3.1.min.js"></script>
-  // <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  // <script src="js/jquery-ui.js"></script>
-  // <script src="js/popper.min.js"></script>
-  // <script src="js/bootstrap.min.js"></script>
-  // <script src="js/owl.carousel.min.js"></script>
-  // <script src="js/jquery.stellar.min.js"></script>
-  // <script src="js/jquery.countdown.min.js"></script>
-  // <script src="js/bootstrap-datepicker.min.js"></script>
-  // <script src="js/jquery.easing.1.3.js"></script>
-  // <script src="js/aos.js"></script>
-  // <script src="js/jquery.fancybox.min.js"></script>
-  // <script src="js/jquery.sticky.js"></script>
-  // <script src="js/jquery.mb.YTPlayer.min.js"></script>
-
-
-
-
-	//add files
-
-  // <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
-  // <link rel="stylesheet" href="fonts/icomoon/style.css">
-
-  // <link rel="stylesheet" href="css/jquery-ui.css">
-  // <link rel="stylesheet" href="css/owl.carousel.min.css">
-  // <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  // <link rel="stylesheet" href="css/owl.theme.default.min.css">
-
-  // <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-
-  // <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-
-  // <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-
-  // <link rel="stylesheet" href="css/aos.css">
-  // <link href="css/jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet" type="text/css">
-
-  // <link rel="stylesheet" href="css/style.css">
-
+	wp_enqueue_style( 'load-fa', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' );
 
 
 

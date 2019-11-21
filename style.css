@@ -263,7 +263,7 @@ h1, h2, h3, h4, h5,
   font-weight: 900;
   font-size: 1.3rem; }
   .site-logo span {
-    font-size: 2rem; }
+    font-size: 1rem; }
   .site-logo a {
     color: #000; }
 
@@ -1114,7 +1114,9 @@ h1, h2, h3, h4, h5,
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #dddddd;
+  /* background-color: #dddddd; */
+    font-size: 18px;
+    color: black;
 }
 li {
   float: left;
@@ -1124,3 +1126,7 @@ li a {
   display: block;
   padding: 8px;
 }
+
+/* .nav a.active {
+   color: red;
+} */
